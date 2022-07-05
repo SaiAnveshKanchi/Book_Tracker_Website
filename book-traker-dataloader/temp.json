@@ -1,0 +1,4 @@
+{"title": "Th\u00e9s, infusions, sant\u00e9", 
+    "created": {"type": "/type/datetime", "value": "2009-12-11T01:57:52.839053"},
+     "covers": [3146455],
+    "last_modified": {"type": "/type/datetime", "value": "2010-04-28T06:54:19.472104"}, "latest_revision": 3, "key": "/works/OL10003095W", "authors": [{"type": "/type/author_role", "author": {"key": "/authors/OL3968483A"}}], "type": {"key": "/type/work"}, "revision": 3}

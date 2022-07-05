@@ -1,0 +1,36 @@
+
+
+datadump.location:
+  author: /Users/SaiAnveshKanchi/Downloads/book-traker/book-traker-dataloader/test-authors.txt
+  works: /Users/SaiAnveshKanchi/Downloads/book-traker/book-traker-dataloader/test-works.txt
+
+
+spring:
+
+  application.name: book-traker-dataloader
+
+  data:
+    cassandra:
+      keyspace-name: main
+      username: ukesTLTaZlTwKOpJgcqsBZBf
+      password: 6MzM2QO+2i9seZ9F3xqb5ULUhqEYFyig2ANvb7WgwiqaDdq_lijTG8Z9hTCwNo,qssKO3p6dRLKK6yzLJx7t,K6I8l1emZK7prS,_x7EcchZFhN2jYTLKjWoZbS+wLMy
+      schema-action: recreate
+      request:
+        timeout: 10s
+      connection:
+        connect-timeout: 10s
+        init-query-timeout: 10s
+
+datastax.astra:
+  secure-connect-bundle: secure-connect.zip
+
+astra.db:
+  id: 019a23e3-7cd4-4a63-b106-d8d41f4522f9-1
+  region: asia-south1
+  keyspace: main
+  application.token: AstraCS:ukesTLTaZlTwKOpJgcqsBZBf:e88d8230ec5a5bafcf39a0e8ae2c84e78d9a894eaea0f935a4d4ac1cb84aef90
+  
+
+spring.main.allow-circular-references : true
+
+
